@@ -1,0 +1,67 @@
+.nav-wrapper {
+    background-color: rgb(49, 162, 238);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+    margin: 10px
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.flex-order{
+    display: flex;
+    align-items: center;
+    margin: 20px
+}
+.price-div {
+    display: flex;
+    justify-content: flex-end;
+}
+.item-price {
+    margin-right: 20px;
+}
+.back-link, .checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item {
+    list-style: none;
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.collection .collection-item label{
+
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+.item-desc .title {
+    font-weight: bold;
+}
